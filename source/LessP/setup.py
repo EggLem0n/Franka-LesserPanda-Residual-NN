@@ -24,7 +24,7 @@ INSTALL_REQUIRES = [
 # Installation operation
 setup(
     name="LessP",
-    packages=["LessP"],
+    packages=["LessP", "LessP_assets"],
     author=EXTENSION_TOML_DATA["package"]["author"],
     maintainer=EXTENSION_TOML_DATA["package"]["maintainer"],
     url=EXTENSION_TOML_DATA["package"]["repository"],
